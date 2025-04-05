@@ -15,9 +15,15 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
+    "cohere>=5.14.2",
     "elasticsearch>=8.17.2",
+    "google-genai>=1.9.0",
     "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "minsearch>=0.0.2",
+    "niquests>=3.14.0",
     "openai>=1.70.0",
+    "orjson>=3.10.16",
     "polars[pandas]>=1.26.0",
     "rich>=14.0.0",
     "scikit-learn>=1.6.1",
